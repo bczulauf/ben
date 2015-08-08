@@ -1,0 +1,94 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #f8f8f8;
+	color: #47525f;
+}
+
+a {
+	color: #47525f;
+}
+
+.content {
+	width: 540px;
+	margin: 0 auto;
+}
+
+.header {
+	margin-bottom: 20px;
+}
+
+.header-container {
+	height: 40px;
+	display: flex;
+	align-items: center;
+}
+
+.idea {
+	display: flex;
+	margin-bottom: 20px;
+}
+
+.idea-container {
+	flex: 1 1 auto;
+	align-items: center;
+}
+
+.idea-content {
+	line-height: 140%;
+}
+
+.idea-title {
+	font-weight: 700;
+	font-size: 20px;
+}
+
+button.idea-delete {
+	display: none;
+	margin-left: 20px;
+}
+
+button.idead-vote {
+	display: flex;
+}
+
+.idea-vote-count {
+	margin-left: 5px;
+	line-height: 32px;
+}
+
+button.btn-md {
+	height: 32px;
+	width: 120px;
+}
+
+button.btn-sm {
+	align-items: center;
+	justify-content: center;
+	height: 32px;
+	width: 32px;
+}
+
+.idea-form {
+	display: none;
+}
+
+input.idea-input {
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+.vote-up {
+	width: 16px;
+}
+
+.secret {
+	opacity: .4;
+}
+
+.admin .idea-form {
+	display: block;
+}
+
+.admin button.idea-delete {
+	display: flex;
+}
